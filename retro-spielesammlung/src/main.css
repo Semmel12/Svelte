@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: #00ff00;
+  font-family: 'Courier New', monospace;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.quiz-card {
+  background: #111;
+  border: 1px solid #00ff00;
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+button {
+  font-family: inherit;
+  background: #00ff00;
+  color: black;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
